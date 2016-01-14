@@ -28,7 +28,7 @@ with open('dev-requirements.txt') as dev_requirements_file:
 setup(
     name='sopel_modules.inclusivity',
     version='0.1.0',
-    description='Sopel Inclusive Language suggests better wordings when people don't use inclusive language',
+    description="Sopel Inclusive Language suggests better wordings when people don't use inclusive language",
     long_description=readme + '\n\n' + history,
     author='Elsie Powell',
     author_email='git@embolalia.com',
