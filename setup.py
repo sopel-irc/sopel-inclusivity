@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 
 if __name__ == '__main__':
-    print('Sopel does not correctly load modules installed with setup.py '
+    print('Sopel does not correctly load plugins installed with setup.py '
           'directly. Please use "pip install .", or add {}/sopel_modules to '
           'core.extra in your config.'.format(
               os.path.dirname(os.path.abspath(__file__))),
@@ -27,12 +27,12 @@ with open('dev-requirements.txt') as dev_requirements_file:
 
 setup(
     name='sopel_modules.inclusivity',
-    version='0.1.0',
+    version='0.2.0',
     description="Sopel Inclusive Language suggests better wordings when people don't use inclusive language",
     long_description=readme + '\n\n' + history,
-    author='Elsie Powell',
-    author_email='git@embolalia.com',
-    url='http://github.com/sopel-irc/sopel-inclusivity',
+    author='dgw',
+    author_email='dgw@technobabbl.es',
+    url='https://github.com/sopel-irc/sopel-inclusivity',
     packages=find_packages('.'),
     namespace_packages=['sopel_modules'],
     include_package_data=True,
