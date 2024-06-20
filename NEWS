@@ -1,5 +1,24 @@
-Changes between 0.1.0 and 0.2.0
-===============================
+## Changelog
+
+### 0.3.0
+
+First release as `sopel-inclusivity`, replacing `sopel_modules.inclusivity`.
+
+Changed:
+* Updated compatibility for Sopel 8
+* Minimum Sopel version is now 7.1
+* Use newer `search` rule type, instead of bookending pattern with `.*`
+
+Meta:
+* Packaging converted to `pyproject.toml` and modernized
+  * Package name has changed: `sopel_modules.inclusivity` → `sopel-inclusivity`
+* Author & Maintainer metadata corrected to credit embolalia as the creator
+
+### 0.2.0
 
 Changed:
 * Updated compatibility for Sopel 7
+
+### 0.1.0
+
+Initial release of `sopel_modules.inclusivity`.
