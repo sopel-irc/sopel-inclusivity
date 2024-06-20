@@ -14,7 +14,7 @@ readme = { file=["README.md", "NEWS"], content-type="text/markdown" }
 
 [project]
 name = "sopel-inclusivity"
-version = "0.3.0.dev0"
+version = "0.3.0"
 description = "Have your Sopel bot suggest more inclusive language"
 
 authors = [
