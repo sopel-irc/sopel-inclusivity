@@ -27,8 +27,8 @@ with open('dev-requirements.txt') as dev_requirements_file:
 
 setup(
     name='sopel_modules.inclusivity',
-    version='0.2.0',
-    description="Sopel Inclusive Language suggests better wordings when people don't use inclusive language",
+    version='0.2.0.post0',
+    description="Old Inclusive Language plugin for Sopel - please update to sopel-inclusivity",
     long_description=readme + '\n\n' + history,
     long_description_content_type='text/markdown',
     author='dgw',

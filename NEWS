@@ -1,5 +1,12 @@
-Changes between 0.1.0 and 0.2.0
-===============================
+## Changelog
+
+### 0.2.0.post0
+
+Meta:
+* Note that this package is unmaintained, replaced by `sopel-inclusivity`
+* Fix PyPI description & changelog formatting
+
+### 0.2.0
 
 Changed:
 * Updated compatibility for Sopel 7

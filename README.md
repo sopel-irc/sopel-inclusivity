@@ -1,5 +1,10 @@
 # sopel-inclusivity
 
+**This package is no longer updated. For use with Sopel 8.0 and higher, please
+install [`sopel-inclusivity`][new-package-url] instead.**
+
+[new-package-url]: https://pypi.org/project/sopel-inclusivity/
+
 Sopel Inclusive Language suggests better wordings when people don't use
 inclusive language. It's inspired by [this blog
 post](https://18f.gsa.gov/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/)
